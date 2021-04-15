@@ -1,0 +1,58 @@
+.join {
+  height: 320px;
+  background-image: url("/img/joinBG.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.join h2 {
+  margin-left: 40px;
+  padding-top: 40px;
+  color: white;
+  font-size: 2rem;
+}
+
+.join .join-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 40px;
+  color: white;
+}
+.join .join-content .left-part {
+  width: 65%;
+  margin-right: 40px;
+  font-size: 1.2rem;
+}
+.join em {
+  opacity: 0.7;
+  font-style: italic;
+}
+.join.join-content.points {
+  width: auto;
+}
+.join.join-content.points ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 20px;
+}
+.join li {
+  opacity: 0.8;
+  margin: 0;
+}
+
+.join-content .left-part button {
+  margin-top: 20px;
+  height: 42px;
+  width: 93px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(153, 122, 240);
+  color: white;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+}
