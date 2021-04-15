@@ -1,0 +1,90 @@
+.catogory {
+  margin-left: 40px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.catogory h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.slider1 {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+}
+/* .slider1::after {
+  content: "";
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    #fff 100%
+  );
+  top: 0;
+  right: 0;
+  will-change: opacity;
+} */
+
+.slider1-container {
+  display: block;
+  white-space: nowrap;
+}
+.item {
+  display: inline-block;
+  max-width: 150px;
+  padding-right: 20px;
+}
+.info {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.item .info .more-info {
+  color: rgb(53, 137, 211);
+  width: 40px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+.poster {
+  width: 150px;
+  height: calc(150px * 1.5);
+  border-radius: 10px;
+  top: 0;
+  position: relative;
+}
+
+.item .info .rate {
+  width: 40px;
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  border-radius: 20px;
+}
+.NameandDates {
+  width: 100%;
+  text-align: left;
+  position: relative;
+  padding: 26px 10px 12px 10px;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  white-space: normal;
+}
+.catogory h3 {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 1rem;
+  overflow-wrap: break-word;
+  word-wrap: normal;
+}
+.catogory h3:hover {
+  color: rgb(27, 238, 227);
+}
+.catogory h4 {
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  color: grey;
+}

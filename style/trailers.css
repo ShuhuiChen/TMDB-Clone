@@ -1,0 +1,118 @@
+.Trailer {
+  /* box-sizing: border-box; */
+  flex-wrap: wrap;
+  background: url("/img/trailer/Bg1.jpeg") center;
+  box-shadow: 600px 400px 100px 20px rgba(18, 32, 59, 0.746) inset;
+  background-position: center center;
+  height: 100%;
+  border: 0ch;
+  padding-top: 20px;
+}
+.Trailer h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  color: white;
+}
+.slider-trailer {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+  margin-left: 40px;
+}
+/* .slider1::after {
+  content: "";
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    #fff 100%
+  );
+  top: 0;
+  right: 0;
+  will-change: opacity;
+} */
+
+.slider-trailer-container {
+  display: block;
+  white-space: nowrap;
+}
+.slider-trailer-container .item {
+  display: inline-block;
+  max-width: 325px;
+  padding-right: 20px;
+  position: relative;
+}
+.slider-trailer-container .item .info {
+  position: relative;
+  height: 169px;
+  left: 0;
+  top: 0;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.slider-trailer-container .item .info :hover,
+.slider-trailer-container .item .info:focus {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.item .info .more-info {
+  color: rgb(53, 137, 211);
+  width: 40px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+.slider-trailer-container .item .info .poster {
+  display: block;
+  width: 300px;
+  height: 169px;
+  border: 0;
+  border-radius: 10px;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  position: relative;
+  top: 0;
+}
+.slider-trailer-container .item .info i {
+  position: absolute;
+  font-size: 3rem;
+  color: white;
+  top: 60px;
+  left: 130px;
+}
+
+.NameandSeason {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 26px 10px 12px 10px;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  white-space: normal;
+}
+.Trailer h3 {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 1rem;
+  overflow-wrap: break-word;
+  word-wrap: normal;
+  color: white;
+}
+
+.Trailer h4 {
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  color: white;
+}

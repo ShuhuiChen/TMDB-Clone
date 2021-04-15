@@ -1,0 +1,46 @@
+.Leaderboard {
+  width: 100%;
+}
+
+.leader-header {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.leader-header .all {
+  display: inline-flex;
+  margin-left: 20px;
+}
+.leader-header .dotall {
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right,
+    rgb(7, 167, 140) 0%,
+    rgb(9, 198, 216) 100%
+  );
+}
+
+.leader-header .dotweekly {
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right,
+    rgb(241, 166, 68) 0%,
+    rgb(238, 96, 14) 100%
+  );
+}
+.leader-header ul {
+  list-style: none;
+}
+.leader-header .weekly {
+  display: inline-flex;
+  margin-left: 20px;
+}
